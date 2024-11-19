@@ -105,7 +105,7 @@ class _YourViewState extends State<YourView> {
   @override
   Widget build(BuildContext context) {
     return Center(child: ProfileSelector(key: profileKey, size: 100, imageUrl: "https://some/image")); // add key parameters
-    // return ProfileSelector(size: 100, imageFile: File("some/file"), changeable: false);
+    // return ProfileSelector(key: profileKey, size: 100, imageFile: File("some/file"), changeable: false);
   }
 
   dynamic somewhereElse() async{
